@@ -21,6 +21,7 @@ public class Cliente {
 	}
 	
 	public boolean sosElCliente(int numero) {
+		return false;//----
 	
 	}
 	

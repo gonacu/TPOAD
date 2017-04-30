@@ -1,7 +1,6 @@
 package negocio;
 
-
-
+import java.util.Date;
 
 public abstract class OrdenProduccion {
 	private Date fecha;
@@ -9,6 +8,7 @@ public abstract class OrdenProduccion {
 	private PedidoCliente pedidoCliente;
 	private int codigo;
 	public boolean sosLaOrden(int codigo) {
+		return false; //cambiar
 	
 	}
 }

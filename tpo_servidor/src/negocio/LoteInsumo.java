@@ -10,9 +10,11 @@ public class LoteInsumo {
 	private int codigoLoteInsumo;
 	
 	public boolean sosElLote(int codigo){
+		return false;//---
 		
 	}
 	public boolean tenesElLote(int codigo){
+		return false;//---
 		
 	}
 	

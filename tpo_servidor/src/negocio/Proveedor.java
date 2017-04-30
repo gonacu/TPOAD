@@ -8,7 +8,4 @@ public class Proveedor {
 	private ArrayList<ItemListaPrecio> listaPrecios;
 	private int codigo;
 	
-	public boolean sosElProveedor(int codigo){
-		
-	}
 }

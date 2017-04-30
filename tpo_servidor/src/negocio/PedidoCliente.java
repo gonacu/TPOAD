@@ -1,6 +1,9 @@
 package negocio;
 
 import java.util.ArrayList;
+import java.util.Date;
+
+import dto.ItemPedidoClienteDTO;
 
 
 
@@ -12,7 +15,7 @@ public class PedidoCliente {
 	private Date fechaGeneracion;
 	private Date fechaProbableDespacho;
 	private Date fechaDespacho;
-	private ArrayList<ItemPedidoCliente> itemsPedidoCliente;
+	private ArrayList<ItemPedidoClienteDTO> itemsPedidoCliente;
 	private float precioTotal;
 	public void confirmarPedido(Date fechaProbableDespacho) {
 	

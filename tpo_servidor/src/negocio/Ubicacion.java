@@ -5,6 +5,7 @@ public abstract class Ubicacion {
 	protected boolean ocupado;
 	
 	public boolean estaOcupado(){
+		return ocupado; 
 		
 	}
 	

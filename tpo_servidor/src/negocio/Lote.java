@@ -12,6 +12,7 @@ public class Lote {
 	
 	
 	public boolean sosElLote(int codigo){
+		return false;//cambiar
 		
 	}
 }

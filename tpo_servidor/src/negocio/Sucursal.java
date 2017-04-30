@@ -10,6 +10,7 @@ public class Sucursal {
 	private ArrayList<Empleado> empleados;
 	
 	public boolean sosLaSucursal(int codigo){
+		return false;//---
 		
 	}
 	

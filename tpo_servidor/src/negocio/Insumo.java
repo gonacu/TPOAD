@@ -12,6 +12,7 @@ public class Insumo {
 	private String unidad;
 	private float cantAComprar;
 	public boolean sosElInsumo(int codigo) {
+		return false;//---
 		
 	}
 }
