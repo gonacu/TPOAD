@@ -3,19 +3,21 @@ package controladores;
 import java.util.ArrayList;
 
 import negocio.PedidoCliente;
+import negocio.Transporte;
 
 public class Despacho {
 	private ArrayList<Transporte> transportes;
 	private ArrayList<PedidoCliente> pedidos;
-	
-	public void registrarFecha(){
-		
+
+	public void registrarFecha() {
+
 	}
-	public void confeccionarEnvio(PedidoCliente pedido){
-		
+
+	public void confeccionarEnvio(PedidoCliente pedido) {
+
 	}
-	
-	private Transporte buscarTransporte(int codigo){
-		
+
+	private Transporte buscarTransporte(int codigo) {
+
 	}
 }

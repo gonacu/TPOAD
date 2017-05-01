@@ -1,6 +1,6 @@
 package negocio;
 
-public class MovimientoStockPrenda extends MovimientoStock{
+public class MovimientoStockPrenda extends MovimientoStock {
 	private Prenda prenda;
 	private int cantidad;
 

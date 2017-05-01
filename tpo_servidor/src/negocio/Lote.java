@@ -9,10 +9,9 @@ public class Lote {
 	private String talle;
 	private int cantidadTotal;
 	private OrdenProduccion orden;
-	
-	
-	public boolean sosElLote(int codigo){
-		return false;//cambiar
-		
+
+	public boolean sosElLote(int codigo) {
+		return false;// cambiar
+
 	}
 }

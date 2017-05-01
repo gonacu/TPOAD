@@ -9,9 +9,9 @@ public abstract class MovimientoStock {
 	protected String encargado;
 	protected String autorizante;
 	protected int cantidad;
-	
-	public boolean sosElMoviemiento(int codigo){
-		return false;//cambiar
-		
+
+	public boolean sosElMoviemiento(int codigo) {
+		return false;// cambiar
+
 	}
 }

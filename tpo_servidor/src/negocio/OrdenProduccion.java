@@ -7,8 +7,9 @@ public abstract class OrdenProduccion {
 	private Prenda prenda;
 	private PedidoCliente pedidoCliente;
 	private int codigo;
+
 	public boolean sosLaOrden(int codigo) {
-		return false; //cambiar
-	
+		return false; // cambiar
+
 	}
 }

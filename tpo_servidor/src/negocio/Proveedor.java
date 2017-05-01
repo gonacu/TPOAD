@@ -7,5 +7,5 @@ public class Proveedor {
 	private String cuit;
 	private ArrayList<ItemListaPrecio> listaPrecios;
 	private int codigo;
-	
+
 }

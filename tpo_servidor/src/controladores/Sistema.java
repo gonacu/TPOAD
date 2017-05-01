@@ -9,9 +9,9 @@ public class Sistema {
 	private AdministradorPedidos admPedidos;
 	private Despacho despacho;
 	private AdministradorSucursales admSucursales;
-	
-	public static Sistema getInstancia(){
-		
+
+	public static Sistema getInstancia() {
+
 	}
 
 	public AdministradorClientes getAdmClientes() {
@@ -41,5 +41,5 @@ public class Sistema {
 	public AdministradorSucursales getAdmSucursales() {
 		return admSucursales;
 	}
-	
+
 }

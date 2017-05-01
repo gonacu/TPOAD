@@ -8,18 +8,21 @@ import negocio.PedidoCliente;
 public class AdministradorFacturacion {
 	private ArrayList<Factura> facturas;
 	private ArrayList<Cliente> clientes
-	
-	public void generarFactura(PedidoCliente pedido){
-		
+
+	public void generarFactura(PedidoCliente pedido) {
+
 	}
-	public void registrarPago(float cantidad,int numeroCliente){
-		
+
+	public void registrarPago(float cantidad, int numeroCliente) {
+
 	}
-	private Factura buscarFactura(int numero){
-		
+
+	private Factura buscarFactura(int numero) {
+
 	}
-	private Cliente buscarCliente(int numero){
-		
+
+	private Cliente buscarCliente(int numero) {
+
 	}
-	
+
 }
