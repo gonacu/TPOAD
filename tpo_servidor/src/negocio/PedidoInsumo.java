@@ -13,6 +13,6 @@ public class PedidoInsumo {
 	private int codigo;
 
 	public boolean sosElPedido(int codigo) {
-
+		return this.codigo == codigo;
 	}
 }

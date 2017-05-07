@@ -36,11 +36,11 @@ public class Cliente {
 	}
 
 	public void agregarPedido(PedidoCliente pedidoCliente) {
-
+		this.pedidosCliente.add(pedidoCliente);
 	}
 
 	public boolean sosElCliente(int numero) {
-		return false;// ----
+		return (this.numeroCliente == numero);
 
 	}
 

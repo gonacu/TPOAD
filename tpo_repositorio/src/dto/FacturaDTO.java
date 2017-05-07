@@ -8,6 +8,15 @@ public class FacturaDTO {
 	private Date fechaGeneracion;
 	private ClienteDTO cliente;
 	private PedidoClienteDTO pedido;
+	private int numeroFact;
+
+	public int getNumeroFact() {
+		return numeroFact;
+	}
+
+	public void setNumeroFact(int numeroFact) {
+		this.numeroFact = numeroFact;
+	}
 
 	public float getTotal() {
 		return total;

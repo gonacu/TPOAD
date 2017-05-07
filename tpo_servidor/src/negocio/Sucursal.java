@@ -23,7 +23,7 @@ public class Sucursal {
 	}
 
 	public boolean sosLaSucursal(int codigo) {
-		return false;// ---
+		return this.numero == codigo;
 
 	}
 

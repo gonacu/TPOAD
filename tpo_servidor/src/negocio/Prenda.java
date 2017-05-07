@@ -24,8 +24,15 @@ public class Prenda {
 	public Prenda(PrendaDTO preDTO) {
 		this.codigo = preDTO.getCodigo();
 		this.descripcion = preDTO.getDescripcion();
-		this.coloresPosibles = preDTO.getColoresPosibles();
-		this.tallesPosibles = preDTO.getTallesPosibles();
+		this.tallesPosibles = new ArrayList<>();
+		for (String t : preDTO.getTallesPosibles()){
+			this.tallesPosibles.add(t);
+		}		
+		this.coloresPosibles = new ArrayList<>();
+		for (String c : preDTO.getColoresPosibles()){
+			this.coloresPosibles.add(c);
+		}
+
 		//Verificar si la orden es parcial, no estoy seguro si en ordenProduccion guardo una Opp u Opc directamente
 		/*
 		if (preDTO.getOrdenProduccion().esParcial())
@@ -38,6 +45,8 @@ public class Prenda {
 		this.costoProduccionActual = preDTO.getCostoProduccionActual();
 		this.porcentajeGanancia = preDTO.getPorcentajeGanancia();
 		this.precio = preDTO.getPrecio();
+		this.itemsPrendaArea = new ArrayList<>();
+		this.itemsPrendaInsumo = new ArrayList<>();
 		for (ItemPrendaInsumoDTO ipiDTO : preDTO.getItemsPrendaInsumo()){
 			this.itemsPrendaInsumo.add(new ItemPrendaInsumo(ipiDTO));	
 		}
@@ -48,7 +57,7 @@ public class Prenda {
 	}
 
 	public boolean sosLaPrenda(int numero) {
-		return (numero == this.codigo); //revisar
+		return (numero == this.codigo); 
 
 	}
 }

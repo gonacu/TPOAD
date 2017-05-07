@@ -16,4 +16,8 @@ public class AreaProduccion {
 			this.lineasProduccion.add(new LineaProduccion(lp));
 		}
 	}
+	
+	public AreaProduccion(){
+		
+	}
 }

@@ -22,7 +22,7 @@ public class Insumo {
 	}
 
 	public boolean sosElInsumo(int codigo) {
-		return false;// ---
+		return codigo == this.codigo;// ---
 
 	}
 }

@@ -11,7 +11,7 @@ public abstract class MovimientoStock {
 	protected int cantidad;
 
 	public boolean sosElMoviemiento(int codigo) {
-		return false;// cambiar
+		return this.codigo == codigo;
 
 	}
 }

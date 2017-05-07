@@ -6,6 +6,6 @@ public class Transporte {
 	private int codigo;
 
 	public boolean sosElTranporte(int codigo) {
-
+		return this.codigo == codigo;
 	}
 }
