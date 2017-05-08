@@ -15,5 +15,5 @@ public class UbicacionDAO extends GenericDAO<Ubicacion> {
 		sesion.close();		
 		return ubic;
 	}
-
+	//..
 }
