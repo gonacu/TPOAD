@@ -18,6 +18,10 @@ public class Despacho {
 	}
 
 	private Transporte buscarTransporte(int codigo) {
-
+		for (Transporte t: transportes){
+			if (t.sosElTranporte(codigo))
+				return t;
+		}
+		return null;
 	}
 }

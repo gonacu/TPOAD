@@ -12,5 +12,5 @@ public class AdministradorPedidos {
 		pedidosPendientes.add(new PedidoCliente(pedido));
 	}
 	
-	//deberia hacer algo mas
+	//deberia hacer algo mas??
 }

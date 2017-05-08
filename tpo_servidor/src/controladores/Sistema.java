@@ -11,6 +11,7 @@ public class Sistema {
 	private AdministradorSucursales admSucursales;
 
 	public static Sistema getInstancia() {
+		return instancia;
 
 	}
 

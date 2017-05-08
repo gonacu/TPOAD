@@ -40,8 +40,12 @@ public class AdministradorStock {
 	}
 
 	private Insumo buscarInsumo(int codigo) {
+		for (LoteInsumo li : lotesInsumos){
+			if (li.getInsumo().sosElInsumo(codigo)){
+				return li.getInsumo();
+			}
+		}
 		return null;
-
 	}
 
 	public void nuevoMovimientoStock(MovimientoStockDTO movDTO) {

@@ -28,4 +28,8 @@ public class LoteInsumo {
 		return false;// falta hacer, no se que pide
 	}
 
+	public Insumo getInsumo() {
+		return insumo;
+	}
+	
 }
