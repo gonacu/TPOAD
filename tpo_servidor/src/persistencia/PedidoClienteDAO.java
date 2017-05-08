@@ -2,7 +2,7 @@ package persistencia;
 
 import org.hibernate.Session;
 
-import negocio.Bulto;
+import entities.PedidoClienteEntity;
 import negocio.PedidoCliente;
 
 public class PedidoClienteDAO extends GenericDAO<PedidoCliente> {

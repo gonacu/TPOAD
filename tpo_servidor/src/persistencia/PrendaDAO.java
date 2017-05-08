@@ -2,7 +2,7 @@ package persistencia;
 
 import org.hibernate.Session;
 
-import negocio.Bulto;
+import entities.PrendaEntity;
 import negocio.Prenda;
 
 public class PrendaDAO extends GenericDAO<Prenda> {

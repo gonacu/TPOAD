@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import org.hibernate.Query;
 import org.hibernate.Session;
 
+import entities.AreaProduccionEntity;
 import negocio.AreaProduccion;
 
 public class AreaProduccionDAO extends GenericDAO<AreaProduccion> {
